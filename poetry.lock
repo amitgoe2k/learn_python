@@ -1,0 +1,18 @@
+[[package]]
+name = "numpy266165"
+version = "1.0.789"
+description = "Handling links"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "5bdbc4f3d30eb514cb597da2106f49241d2e4fb5f4948aeeda216501a88fbbcb"
+
+[metadata.files]
+numpy266165 = [
+    {file = "numpy266165-1.0.789-py3-none-any.whl", hash = "sha256:7ea445c31f2e59082af1639dcd8c8fbc1c715b8dc79294bef0b6f2937a22e515"},
+    {file = "numpy266165-1.0.789.tar.gz", hash = "sha256:b22a071a47bbcabf6a4babc107e41e1945e95a78006695d402b4757d30d2fcb1"},
+]
