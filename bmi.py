@@ -13,5 +13,15 @@ print(np_weight)
 
 ## Calculate bmi and print it
 bmi = np.around(np_weight / np_height ** 2, 2)
-print("BMI : " + str(bmi))
-print("bmi belongs to " + str(type(bmi)))
+print('BMI : ' + str(bmi))
+print('bmi belongs to ' + str(type(bmi)) + '\n' + '='*40)
+
+## Find lightweight people
+# Create the light array
+light = bmi < 25
+
+# Print out light
+print(light)
+
+# Print out BMIs of all baseball players whose BMI is below 21
+print("We have information of total " + str(len(bmi)) + " people. Out of them, " + str (len(bmi[light])) + " are fit. \nFollowing are bmi of fit people - " + str(bmi[light]))
