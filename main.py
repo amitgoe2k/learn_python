@@ -5,9 +5,9 @@ def print_block(n, string):
     print(double_line + string + double_line)
 
 ## Execute different files
-print_block(60,'Executing circle.py')
-os.system ("python3 circle.py")
+files = ['circle.py', 'bmi.py', '2d_array.py']
+for x in files:
+  print_block(60,'Executing ' + x)
+  command = 'python3 ' + str(x)
+  os.system (command)
 
-#print ("\n=======================\nExecuting bmi.py .....\n=======================")
-print_block(60,'Executing bmi.py')
-os.system ("python3 bmi.py")
